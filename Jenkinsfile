@@ -11,7 +11,7 @@ node
 	}
 	stage('install')
 	{
-		sh "make install"
+		sh "sudo make install"
 	}
 	stage('clean')
 	{
