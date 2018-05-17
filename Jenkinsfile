@@ -8,7 +8,7 @@ node
 	stage('install')
 	{
 		sh "make install"
-	{
+	}
 	stage('clean')
 	{
 		sh "make clean"
