@@ -1,6 +1,10 @@
 #!groovy
 node
 {
+	stage('clone')
+	{
+		sh "git clone https://github.com/sushemsu/chpasswd.git ."
+	}
 	stage('build')
 	{
 		sh "make"
