@@ -9,3 +9,4 @@ when compiling on solaris depending on gcc version you might need the flag: `-st
 |---------------|:---------:|:-----------:|
 |echo into argc |           |      X      |
 |garbage clean  |           |      X      |
+|Detect null in hash|       |      X      |
