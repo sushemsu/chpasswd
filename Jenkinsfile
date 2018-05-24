@@ -1,5 +1,5 @@
 #!groovy
-node
+node ( "${params.Environment}" )
 {
 	stage('clone')
 	{
